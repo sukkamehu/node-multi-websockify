@@ -9,8 +9,8 @@ module.exports = (server, sockets) => {
 	if(typeof(sockets) == "object"){
 		sockets.forEach(t => {
 			targets.push({
-				host: t.uri.split(':')[0],
-				port: t.uri.split(':')[1],
+				host: t.target.split(':')[0],
+				port: t.target.split(':')[1],
 				connection: {},
 				path: t.path
 			})
