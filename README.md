@@ -9,7 +9,7 @@ It is very similar to the aformentioned [@maximegris/node-websockify](https://gi
 ## Installation 
 
 ```
-npm install --save @simplemnt/node-websockify
+npm install --save @sukkis/node-multi-websockify
 ```
 
 ## Usage
