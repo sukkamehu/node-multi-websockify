@@ -4,7 +4,7 @@
 
 
 
-Difference of this version to Simplemnt's great work is that this fork adds support also for multiple simultanous WS session to be reached from one port only. Also configuring instance is slightly easier as just single line is required.
+Difference of this version to Simplemnt's great work is that this fork adds support also for multiple simultanous WS session to be reached from one port only. Also configuring instance is slightly easier as just single line is required. Should handle also server request upgrading accordingly.
 
 
 ## Installation 
