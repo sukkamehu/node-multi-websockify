@@ -1,9 +1,10 @@
-# node-multi-websockify fork of https://github.com/Simplemnt/node-websockify inspired by [@maximegris/node-websockify](https://github.com/maximegris/node-websockify)
+# node-multi-websockify fork of https://github.com/Simplemnt/node-websockify
 
-WebSocket-to-TCP proxy/bridge in NodeJS
+[![npm version](https://badge.fury.io/js/%40sukkis%2Fnode-multi-websockify.svg)](https://badge.fury.io/js/%40sukkis%2Fnode-multi-websockify)
 
 
-It is very similar to the aformentioned [@maximegris/node-websockify](https://github.com/maximegris/node-websockify), but the big difference is that library spins up a standalone web server. If you are already using a http server, you would be out of luck. This package lets you do that! Difference of this version to Simplemnt's great work is that this fork adds support also for multiple simultanous WS session to be reached from one port only.
+
+Difference of this version to Simplemnt's great work is that this fork adds support also for multiple simultanous WS session to be reached from one port only. Also configuring instance is slightly easier as just single line is required.
 
 
 ## Installation 
